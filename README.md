@@ -15,3 +15,17 @@ to use:
 'pippractice '
 ```
 
+
+
+
+
+
+
+notes for me:
+
+twine error workaround:
+
+```bash
+python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
+
